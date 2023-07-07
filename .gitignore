@@ -1,0 +1,7 @@
+.env
+node_modules
+index.html
+node-rest-installs.txt
+route.rest
+style.css
+main.js

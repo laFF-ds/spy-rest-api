@@ -1,0 +1,190 @@
+/*
+Agent Data for POST
+*/
+{
+    "name": "Yasmin Uribe",
+    "number": "000",
+    "location": "United States",
+    "specialties": ["surveillance"],
+    "preferredCombat": "pistol",
+    "preferredTools": ["drone", "mini camera"],
+    "missions": [{
+        "name": "Operation Owl",
+        "location": "Canada",
+        "goal": "Investigate and map out chemical weapon facility.",
+        "success": true
+    }]
+},
+{
+    "name": "Rick Cheung",
+    "number": "001",
+    "location": "New York",
+    "specialties": ["surveillance","disguise"],
+    "preferredCombat": "hand-to-hand",
+    "preferredTools": ["smokebomb","drone"],
+    "missions": [{
+        "name": "Operation Chameleon",
+        "location": "Germany",
+        "goal": "Disguise self as Dr. Eric Yu and isolate and prepare Dr. Ruprt Behrens for extraction inside the Cologne Convention Center",
+        "success": true
+    },
+    {
+        "name":"Operation Eagle Eye",
+        "location":"New York",
+        "goal":"Keep watch over 006 and the perimeter as she extracts 004",
+        "success": true
+    }]
+},
+{
+    "name": "Wesley Price",
+    "number": "002",
+    "location": "New York",
+    "specialties": [
+      "Gadgets"
+    ],
+    "preferredCombat": "hand-to-hand",
+    "preferredTools": [
+      "smokebomb",
+      "stinkbomb"
+    ],
+    "missions": [
+      {
+        "name": "Operation Stinkbug",
+        "location": "Florida",
+        "goal": "Infiltrate target location and extract Julian Velez",
+        "success": false
+      },
+      {
+        "name": "Operation Rhino",
+        "location": "Texas",
+        "goal": "Infiltrate the Lucky Lemon and eliminate Malcolm Knox",
+        "success": true
+      }]
+},
+{
+    "name": "Wendell Webber",
+    "number": "003",
+    "location": "Virginia",
+    "specialties": [
+      "surveillance"
+    ],
+    "preferredCombat": "long-range rifle",
+    "preferredTools": [
+      "motion sensor",
+      "drone"
+    ],
+    "missions": [
+      {
+        "name": "Operation Viper",
+        "location": "Florida",
+        "goal": "Eliminate chemist Dr. Renee Matthews",
+        "success": true
+      },
+      {
+        "name": "Operation Bulldog",
+        "location": "Nevada",
+        "goal": "Provide overwatch for Night Team",
+        "success": true
+      }]
+},
+{
+    "name": "Felix Costello",
+    "number": "004",
+    "location": "California",
+    "specialties": [
+      "surveillance",
+      "poisons"
+    ],
+    "preferredCombat": "pistol",
+    "preferredTools": [
+      "cyanide",
+      "listening device",
+      "laxative"
+    ],
+    "missions": [
+      {
+        "name": "Operation Fennec",
+        "location": "Nevada",
+        "goal": "Find Herman Dumont and eliminate him",
+        "success": true
+      },
+      {
+        "name": "Operation Silver Wind",
+        "location": "California",
+        "goal": "Collect intel on Adun Sali. Find and eliminate Rian Mukda",
+        "success": false
+      }]
+},
+{
+    "name": "Marc Combs",
+    "number": "005",
+    "location": "New York",
+    "specialties": [
+      "tracking"
+    ],
+    "preferredCombat": "long-range rifle",
+    "preferredTools": [
+      "gps tracker",
+      "listening device",
+      "drone"
+    ],
+    "missions": [
+      {
+        "name": "Operation Hound",
+        "location": "New York",
+        "goal": "Find and capture Minas Giannopoulos before his flight departs from JFK airport",
+        "success": true
+      }]
+},
+{
+    "name": "Beatrice Chung",
+    "number": "006",
+    "location": "California",
+    "specialties": [
+      "tracking",
+      "infiltration"
+    ],
+    "preferredCombat": "pistol",
+    "preferredTools": [
+      "lockpick",
+      "motion sensor",
+      "drone"
+    ],
+    "missions": [
+      {
+        "name": "Operation Jackrabbit",
+        "location": "California",
+        "goal": "Find and collect documents from warehouse.Follow vehicle and send the location of the hidden storage facility",
+        "success": true
+      },
+      {
+        "name": "Operation Butterfly",
+        "location": "California",
+        "goal": "Find and extract 004",
+        "success": true
+      }]
+},
+{
+    "name": "James Bond",
+    "number": "007",
+    "location": "United States",
+    "specialties": ["acting", "poison"],
+    "preferredCombat": "pistol",
+    "preferredTools": ["laxative"],
+    "missions": [
+    {
+        "name": "Operation Jello",
+        "location": "Canada",
+        "goal": "Successfully deliver the jello explosives to its destination",
+        "success": true,
+        "_id": "64a31a096cfd5718fcffedb1"
+    },
+    {
+        "name": "Operation Eagle",
+        "location": "Mexico",
+        "goal": "Infiltrate and destroy a secret weapons factory beneath the Hotel California",
+        "success": true
+    }]
+}
+
+
