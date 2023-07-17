@@ -82,9 +82,3 @@ input:focus
     border-bottom: solid 1px;
     border-color: rgba(150, 0, 0, 1);
 }
-
-img[alt="Agent table"]
-{ 
-    width: 200px;
-    height: 200px; 
-}
