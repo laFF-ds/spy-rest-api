@@ -82,3 +82,9 @@ input:focus
     border-bottom: solid 1px;
     border-color: rgba(150, 0, 0, 1);
 }
+
+img[alt="Agent table"],img[alt="Create agent"],img[alt="Update agent"] 
+{ 
+    width: 200px;
+    height: 200px; 
+}
