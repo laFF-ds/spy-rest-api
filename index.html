@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <table id="agent-table">
+            <tr class="table-header">
+            <th>Agent</th>
+            <th>Number</th>
+            <th>Location</th>
+            <th>Specialties</th>
+            <th>Preferred Combat</th>
+            <th>Preferred Tools</th>
+            <th>EDIT</th>
+            <th>DELETE</th>
+            </tr>
+        </table>
+        <div class="form-container">
+            <form class="new-agent-form">
+                <label for="name">Agent Name:</label><br />
+                <input type="text" id="name" name="name" placeholder="Jane Bond"><br />
+
+                <label for="number">Agent Number:</label><br />
+                <input type="text" id="number" name="number" placeholder="008"><br />
+
+                <label for="location">Location:</label><br />
+                <input type="text" id="location" name="location" placeholder="California"><br />
+
+                <div>
+                <label for="specialties">Specialties:</label><br />
+                <input type="text" id="specialties" name="specialties" placeholder="Disguise"><br />
+                <button id="new-specialties-btn" type="button">New Specialties Field</button>
+                </div>
+
+                <label for="preferred-combat">Preferred Combat:</label><br />
+                <input type="text" id="preferred-combat" name="preferred-combat" placeholder="pistol"><br />
+
+                <div>
+                <label for="preferred-tools">Preferred Tools:</label><br />
+                <input type="text" id="preferred-tools" name="preferred-tools" placeholder="Drone"><br />
+                <button id="new-tools-btn" type="button">New Tools Field</button>
+                </div>
+
+                <div>
+                <p>Missions</p>
+                <label for="mission-name">Mission Name:</label><br />
+                <input type="text" name="mission-name" id="mission-name-input" placeholder="Operation Kitten"><br />
+
+                <label for="mission-location">Mission Location:</label><br />
+                <input type="text" name="mission-location" id="mission-location-input" placeholder="Canada"><br />
+
+                <label for="mission-goal">Mission Goal:</label><br />
+                <input type="text" name="mission-goal" id="mission-goal-input" placeholder="Eliminate Red Eye"><br />
+
+                <label for="mission-success">Mission Success:</label><br />
+                <input type="text" name="mission-success" id="mission-success-input" placeholder="true"><br />
+                <button id="new-missions-btn" type="button">New Mission Form</button>
+                </div>
+
+                <input id="submit-button" type="submit" value="Submit">
+              </form> 
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

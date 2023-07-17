@@ -1,0 +1,84 @@
+body,html
+{
+    height:100%;
+    background-color: #fafafa;
+}
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 100%;
+}
+.container > *:nth-child(1)
+{
+    flex: 1 1 50%;
+}
+.container > *:nth-child(2)
+{
+    flex: 1 1 50%;
+}
+table
+{
+    border: none;
+    box-shadow: 1px 1px 5px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 90%;
+    background-color: #fafafa;
+}
+table, th, td
+{
+    border-collapse: collapse;
+    text-align: center;
+}
+.table-header
+{
+    color: whitesmoke;
+    background-color: rgba(150, 0, 0, 1);
+}
+.mission-header
+{
+    user-select: none;
+    color: whitesmoke;
+    background-color: rgba(150, 0, 0, 1);
+}
+
+.mission-data
+{
+    background-color: rgba(200, 100, 100, 0.4);
+    border-bottom: solid 1px black;
+    display: none;
+}
+
+a
+{
+    color: black;
+    text-decoration: none;
+}
+
+button, #submit-button
+{
+    border: none;
+    border-radius: 8px;
+    color: whitesmoke;
+    background-color:rgba(150, 0, 0, 1);
+    margin-top: 8px;
+    padding: 8px 16px 8px 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input
+{
+    border: none;
+    border-bottom: solid black 1px;
+}
+
+input:focus
+{
+    outline: none;
+    border-bottom: solid 1px;
+    border-color: rgba(150, 0, 0, 1);
+}
